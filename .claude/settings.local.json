@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(C:/Users/Matt/Desktop/projects/RAG/.venv/Scripts/python.exe:*)"
+      "Bash(C:/Users/Matt/Desktop/projects/RAG/.venv/Scripts/python.exe:*)",
+      "Bash(python3 -m json.tool)",
+      "Read(//tmp/**)",
+      "Bash(wc:*)",
+      "Bash(grep -o '\"[^\"]*VectorStorage\\\\|ChronaDB\\\\|embedding\\\\|chunking[^\"]*\"' /c/Users/acer/Desktop/project/rag/notebook/*.ipynb)"
     ]
   }
 }
